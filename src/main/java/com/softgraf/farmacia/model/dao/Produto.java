@@ -7,7 +7,7 @@ public class Produto {
 	private long id;
 	private String codigo;
 	private String descricao;
-	private float precoUnitari;
+	private float precoUnitari0;
 
 	public Produto() {
 
@@ -17,7 +17,7 @@ public class Produto {
 
 		this.codigo = codigo;
 		this.descricao = descricao;
-		this.precoUnitari = precoUnitari;
+		this.precoUnitari0 = precoUnitari;
 	}
 
 	public long getId() {
@@ -44,12 +44,12 @@ public class Produto {
 		this.descricao = descricao;
 	}
 
-	public float getPrecoUnitari() {
-		return precoUnitari;
+	public float getPrecoUnitario() {
+		return precoUnitari0;
 	}
 
-	public void setPrecoUnitari(float precoUnitari) {
-		this.precoUnitari = precoUnitari;
+	public void setPrecoUnitario(float precoUnitari) {
+		this.precoUnitari0 = precoUnitari;
 	}
 
 	@Override
@@ -71,7 +71,7 @@ public class Produto {
 
 	@Override
 	public String toString() {
-		return "Produto [id=" + id + ", codigo=" + codigo + ", descricao=" + descricao + ", precoUnitari=" + precoUnitari + "]";
+		return "Produto [id=" + id + ", codigo=" + codigo + ", descricao=" + descricao + ", precoUnitari=" + precoUnitari0 + "]";
 	}
 
 	
